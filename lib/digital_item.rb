@@ -10,6 +10,8 @@ class DigitalItem < Item
     @quantity = 1
   end
 
+# remove_method :buy
+
   def stock(amount)
     @quantity = 1
   end
